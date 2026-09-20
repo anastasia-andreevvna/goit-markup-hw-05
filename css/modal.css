@@ -215,8 +215,8 @@
     fill: transparent;
 
     transition:
-    background-color 250ms ease,
-    border-color 250ms ease;
+        background-color 250ms ease,
+        border-color 250ms ease;
 }
 
 .modal-form-checkbox-icon svg {
@@ -227,11 +227,10 @@
 .modal-form-checkbox-input:checked+.modal-form-checkbox-label .modal-form-checkbox-icon {
     border-color: #404bbf;
     background-color: #404bbf;
-    fill: #f4f4fd
 }
 
 .modal-form-checkbox-input:checked+.modal-form-checkbox-label .modal-form-checkbox-icon svg {
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
 
 .modal-form-policy-link {
