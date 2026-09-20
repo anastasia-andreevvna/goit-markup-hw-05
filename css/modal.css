@@ -28,7 +28,7 @@
     padding: 72px 24px 24px;
     box-sizing: border-box;
 
-    background-color: #ffffff;
+    background-color: #fcfcfc;
     border-radius: 4px;
 
     box-shadow:
@@ -51,7 +51,7 @@
     height: 24px;
     padding: 0;
 
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 50%;
     background-color: #e7e9fc;
     cursor: pointer;
@@ -124,9 +124,11 @@
     border-radius: 4px;
     outline: transparent;
     background-color: transparent;
-    font-size: 12px;
+    color: #434455;
+    font-size: 16px;
     box-sizing: border-box;
-
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     transition: border-color 250ms ease;
 }
 
@@ -137,9 +139,9 @@
 .modal-form-icon {
     position: absolute;
     top: 50%;
-    left: 12px;
-    width: 18px;
-    height: 18px;
+    left: 16px;
+    width: 24px;
+    height: 24px;
 
     transform: translateY(-50%);
     fill: #2e2f42;
@@ -164,7 +166,7 @@
     border-radius: 4px;
     outline: transparent;
     background-color: transparent;
-    color: #2e2f42;
+    color: #434455;
 
     font-size: 12px;
     line-height: 1.17;
@@ -240,6 +242,7 @@
     border: none;
     border-radius: 4px;
     background-color: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     color: #ffffff;
 
     font-size: 16px;
