@@ -140,7 +140,7 @@
     position: absolute;
     top: 50%;
     left: 16px;
-    width: 24px;
+    width: 18px;
     height: 24px;
 
     transform: translateY(-50%);
@@ -217,12 +217,19 @@
     transition:
     background-color 250ms ease,
     border-color 250ms ease,
-    fill 250ms ease;
+}
+
+.modal-form-checkbox-icon svg {
+    fill: transparent;
+    transition: fill 250ms ease;
 }
 
 .modal-form-checkbox-input:checked+.modal-form-checkbox-label .modal-form-checkbox-icon {
     border-color: #404bbf;
     background-color: #404bbf;
+}
+
+.modal-form-checkbox-input:checked+.modal-form-checkbox-label .modal-form-checkbox-icon svg {
     fill: #ffffff;
 }
 
